@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const mongoURI = "mongodb://localhost:27017/?readPreference=primary&appname=MongoDB%20Compass&ssl=false"
+const mongoURI = "mongodb://localhost:27017/mealminder?readPreference=primary&appname=MongoDB%20Compass&ssl=false"
 
 async function connectToMongo() {
     try {
